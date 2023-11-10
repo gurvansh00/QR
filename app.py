@@ -16,6 +16,6 @@ qr.make(fit=True)
 
 # Create an image from the QR code with a black fill color and white background
 img = qr.make_image(fill_color="black", back_color="white")
-img.save("image.jpg")
+img.save("image.png")
 # Save the QR code image
-st.image('image.jpg')
+st.image('image.png')
