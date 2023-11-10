@@ -18,4 +18,4 @@ qr.make(fit=True)
 img = qr.make_image(fill_color="black", back_color="white")
 
 # Save the QR code image
-st.image(img)
+st.write(img)
