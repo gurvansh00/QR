@@ -1,7 +1,7 @@
 import streamlit as st
 import qrcode
 st.title('Free QR creator')
-st.header('Created by: :red[Gurvansh Singh] Senior Associate Tech Mentor- ML :green[Athena Education]',divider = 'rainbow')
+st.subheader('Created by: :red[Gurvansh Singh] Senior Associate Tech Mentor- ML :green[Athena Education]',divider = 'rainbow')
 st.write('Just Enter your url and hit Enter/Return')
 
 # Create a QR code object with a larger size and higher error correction
